@@ -4,6 +4,7 @@ import "./App.css";
 import "./styles/global.css";
 import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Components/Home";
+import Rental from "./Components/RentalSection/Rental";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,6 +13,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Home />
+      <Rental />
     </div>
   );
 }
