@@ -4,7 +4,7 @@ import { Icon } from "@iconify/react";
 
 const Rental = () => {
   return (
-    <div className="w-full lg:h-screen p-2 flex  py-16 justify-center items-start mb-5">
+    <div className="w-full md:h-screen p-2 flex  py-16 justify-center items-start mb-5">
       <div className="justify-center items-center grid lg:grid-cols-1  ">
         <h3 className="text-center text-sm">
           Rent Trailers Hourly,Daily, or Weekly
